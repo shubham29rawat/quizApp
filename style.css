@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #b8c6db;
+    background-size: cover; 
+    font-family: "poppins", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quiz-container{
+    background-color: rgb(238, 239, 240);
+    box-shadow:0 0 10px 2px rgb(100, 100, 100, 0.1) ;
+    border-radius: 10px;
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.quiz-header {
+    padding: 2rem;
+
+}
+h2{
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul  li {
+    font-size: 1.1rem ;
+    margin: 1rem 0;
+
+}
+ul  li label {
+    cursor: pointer;
+
+}
+
+
+
+
+button {
+    background-color: rgb(191, 137, 191);
+    display: block;
+    color: white;
+    font-family: inherit;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    font-size: 1.3rem;
+}
+button:hover {
+    background-color: rgb(195, 54, 195);
+}
